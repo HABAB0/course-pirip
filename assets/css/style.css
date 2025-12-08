@@ -1,0 +1,20 @@
+@import url("./imports.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button {
+    border: none;
+    outline: none;
+    background: var(--accent-color);
+    padding: 1.5rem;
+    border-radius: 24px;
+}

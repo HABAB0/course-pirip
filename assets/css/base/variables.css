@@ -1,0 +1,20 @@
+/*colors*/
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #1A4BDD;
+    --accent-color: #F57C00;
+    --text-color: #333333;
+    --background: #FFFFFF;
+    --opacity: 0.8;
+}
+
+:root {
+    --size-title: 5rem;       /* 80px */
+    --size-primary: 3.75rem;  /* 60px */
+    --size-subtitle: 3.125rem; /* 50px */
+    --size-secondary: 2.5rem;  /* 40px */
+    --size-description: 1.875rem; /* 30px */
+    --size-help: 1.5625rem;   /* 25px */
+}
+

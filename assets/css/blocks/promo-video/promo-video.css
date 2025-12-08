@@ -1,0 +1,28 @@
+@import url("../../base/variables.css");
+
+.promo-video {
+    display: flex;
+    margin-top: 90px;
+    background-image: url("/../../images/promo-video.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0 160px;
+    height: 100px;
+}
+
+.promo-video__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-size: cover;
+}
+
+.promo-video__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-color) 0.8;
+    font-size: var(--size-primary);
+}
