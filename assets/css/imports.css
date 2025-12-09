@@ -1,6 +1,8 @@
 @import url("./base/style.css");
 @import url("./base/header/header.css");
 @import url("./base/footer/footer.css");
+@import url("./base/event/event.css");
 @import url("./base/offer/offer.css");
 @import url("./index/index-imports.css");
 @import url("./services/servicers-imports.css");
+@import url("./news/news-imports.css");
