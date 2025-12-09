@@ -1,0 +1,20 @@
+@import url("./../../../base/variables.css");
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 90px;
+    padding: 0 160px;
+}
+
+.services__title {
+    font-size: var(--size-title);
+    color: var(--secondary-color);
+}
+
+.services__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}

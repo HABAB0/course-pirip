@@ -16,6 +16,7 @@
 
 :root {
     --size-title: 5rem;       /* 80px */
+    --size-headline: 4.375rem;      /* 70px */
     --size-primary: 3.75rem;  /* 60px */
     --size-subtitle: 3.125rem; /* 50px */
     --size-secondary: 2.5rem;  /* 40px */

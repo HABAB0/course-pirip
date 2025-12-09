@@ -1,4 +1,4 @@
-@import url("../../base/variables.css");
+@import url("./../../../base/variables.css");
 
 .event {
     display: flex;
@@ -16,7 +16,7 @@
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    background-image: url("../../../images/news-image.png");
+    background-image: url("./../../../../images/news-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

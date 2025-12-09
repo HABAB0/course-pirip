@@ -1,4 +1,4 @@
-@import url("../../base/variables.css");
+@import url("./../../../base/variables.css");
 
 .promo-video {
     display: flex;
@@ -9,7 +9,7 @@
 .promo-video__container {
     display: flex;
     justify-content: space-between;
-    background-image: url("../../../images/promo-image.png");
+    background-image: url("./../../../../images/promo-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

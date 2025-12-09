@@ -1,7 +1,6 @@
+@import url("./base/style.css");
 @import url("./base/header/header.css");
 @import url("./base/footer/footer.css");
-@import url("./blocks/promo-video/promo-video.css");
-@import url("./blocks/event-offer-card/event-offer-card.css");
-@import url("./blocks/event/event.css");
-@import url("./blocks/offer/offer.css");
-@import url("./blocks/contact-form/contact-form.css");
+@import url("./base/offer/offer.css");
+@import url("./index/index-imports.css");
+@import url("./services/servicers-imports.css");

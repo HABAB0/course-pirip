@@ -1,4 +1,4 @@
-@import url("../../base/variables.css");
+@import url("./../../../base/variables.css");
 
 .event-offer-card {
     display: grid;
