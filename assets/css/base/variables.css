@@ -3,10 +3,15 @@
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #1A4BDD;
+    --secondary-color-rgb: 26, 75, 221;
     --accent-color: #F57C00;
+    --accent-color-rgb: 245, 124, 0;
     --text-color: #333333;
     --background: #FFFFFF;
-    --opacity: 0.8;
+    --active: #D96E00;
+    --background-black: #000000;
+    --background-black-rgba: 0, 0, 0;
+
 }
 
 :root {

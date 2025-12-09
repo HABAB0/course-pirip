@@ -25,3 +25,7 @@
     font-size: var(--size-primary);
     color: var(--text-color);
 }
+
+.header__links:hover {
+    opacity: 0.8;
+}

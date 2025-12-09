@@ -1,0 +1,56 @@
+@import url("../../base/variables.css");
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    gap: 1.5rem;
+    margin-top: 90px;
+    height: 100%;
+    width: 100%;
+    padding: 0 160px;
+    min-height: 650px;
+}
+
+.contact-form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--background);
+    border-radius: 24px;
+    padding: 70px;
+}
+
+.contact-form__title {
+    color: var(--text-color);
+    font-size: var(--size-primary);
+    max-width: 1000px;
+}
+
+.contact-form__form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-form__input {
+    padding:18px 35px;
+    width: 100%;
+    color: var(--text-color);
+    font-size: var(--size-help);
+    border-radius: 24px;
+    border: 3px solid rgba(var(--accent-color-rgb), 0.4);
+}
+
+.contact-form__button {
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.contact-form__map {
+    border: 3px solid rgba(var(--accent-color-rgb), 1);
+    background-image: url("../../../images/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+}

@@ -3,26 +3,45 @@
 .promo-video {
     display: flex;
     margin-top: 90px;
-    background-image: url("/../../images/promo-video.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
     padding: 0 160px;
-    height: 100px;
 }
 
-.promo-video__image {
-    width: 100%;
-    height: auto;
-    display: block;
+.promo-video__container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../../../images/promo-image.png");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    height: 100%;
+    width: 100%;
+    min-height: 700px;
 }
 
 .promo-video__title {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    background: var(--secondary-color) 0.8;
+}
+
+.promo-video__text {
     font-size: var(--size-primary);
+    background: rgba(var(--secondary-color-rgb), 0.8);
+    border-radius: 24px;
+    padding: 50px 72px;
+    color: var(--background);
+}
+
+.promo-video__actions {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 40%;
+    padding: 30px 0;
+}
+
+.promo-video__button {
+    padding: 20px 88px;
+    border-radius: 24px;
 }
