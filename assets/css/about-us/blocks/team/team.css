@@ -3,15 +3,15 @@
 .team {
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    margin-top: 90px;
-    padding: 0 160px;
+    gap: 3.75rem;
+    margin-top: 5.625rem;
+    padding: 0 10rem;
 }
 
 .team__container {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 6.25rem;
 }
 
 .team__title {
@@ -25,15 +25,16 @@
 .team__items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 130px;
+    justify-items: center;
+    gap: 8.125rem;
 }
 
 .team__item {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
     background: var(--background);
-    padding: 50px;
+    padding: 3.125rem;
     border-radius: 24px;
     box-shadow: 0 5px 15px #B4B4B4;
 }
@@ -48,4 +49,16 @@
 
 .team__text {
     font-size: var(--size-description);
+}
+
+@media (max-width: 1800px){
+    .team__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1200px){
+    .team__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

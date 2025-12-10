@@ -3,18 +3,18 @@
 .goods {
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    margin-top: 90px;
-    padding: 0 160px;
+    gap: 3.75rem;
+    margin-top: 5.625rem;
+    padding: 0 10rem;
 }
 
 .goods__container {
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 4.375rem;
     background: var(--background);
     border-radius: 24px;
-    padding: 40px 140px;
+    padding: 2.5rem 8.75rem;
     box-shadow: 0 5px 15px #B4B4B4;
 }
 
@@ -26,7 +26,7 @@
 .goods__items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 90px;
+    gap: 5.625rem;
     justify-items: center;
     width: 100%;
 }
@@ -41,41 +41,41 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 40px 80px;
-    gap: 70px;
+    padding: 2.5rem 5rem;
+    gap: 4.375rem;
 }
 
 .goods__text {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .goods__subtitle {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: var(--size-primary);
+    font-size: var(--size-subtitle);
     color: var(--secondary-color);
-    padding: 40px 0;
+    padding: 2.5rem 0;
 }
 
 .goods__description {
-    max-width: 400px;
-    font-size: var(--size-help);
+    max-width: 25rem;
+    font-size: var(--size-description);
     color: var(--text-color);
 }
 
 .goods__features {
     display: flex;
     flex-direction: column;
-    gap:50px;
+    gap: 3.125rem;
 }
 
 .goods__feature {
     display: flex;
     gap: 10px;
-    font-size: var(--size-help);
+    font-size: var(--size-description);
     color: var(--text-color);
 }
 
@@ -83,7 +83,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .goods__price {
@@ -95,8 +95,17 @@
 }
 
 .goods__button {
-    padding: 20px 80px;
+    padding: 20px 5rem;
     border-radius: 24px;
 }
 
+@media (max-width: 1700px) {
+    .goods__container {
+        background: transparent;
+        box-shadow: none;
+    }
 
+    .goods__items {
+        grid-template-columns: 1fr;
+    }
+}

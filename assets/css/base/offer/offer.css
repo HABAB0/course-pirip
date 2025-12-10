@@ -30,7 +30,7 @@
 
 .offer__title {
     color: var(--secondary-color);
-    font-size: var(--size-primary);
+    font-size: var(--size-subtitle);
 }
 
 .offer__button {

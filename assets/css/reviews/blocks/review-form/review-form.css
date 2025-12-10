@@ -2,8 +2,8 @@
 
 .review-form {
     display: flex;
-    margin-top: 90px;
-    padding: 0 320px;
+    margin-top: 5.625rem;
+    padding: 0 20rem;
 }
 
 .review-form__container {
@@ -13,9 +13,9 @@
     background: var(--background);
     box-shadow: 0 5px 15px #B4B4B4;
     border-radius: 24px;
-    padding: 40px 60px;
+    padding: 2.5rem 3.75rem;
     width: 100%;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .review-form__title {
@@ -26,13 +26,13 @@
 .review-form__form {
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 4.375rem;
 }
 
 .review-form__label {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     color: var(--text-color);
     font-size: var(--size-subtitle);
 }
@@ -48,7 +48,7 @@
 
 .review-form__stars {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .review-form__button {

@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "LXGW";
+    font-family: "LXGW", sans-serif;
 }
 
 body {
@@ -11,6 +11,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+image {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
 .button {
     border: none;
     outline: none;
@@ -41,4 +48,34 @@ body {
 .input:focus {
     outline: none;
     border: 6px solid rgba(var(--accent-color-rgb), 1);
+}
+
+@media (max-width: 1400px){
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1200px){
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1000px){
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 800px){
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 600px){
+    html {
+        font-size: 6px;
+    }
 }

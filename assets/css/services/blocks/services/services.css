@@ -3,9 +3,9 @@
 .services {
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    margin-top: 90px;
-    padding: 0 160px;
+    gap: 3.75rem;
+    margin-top: 5.625rem;
+    padding: 0 10rem;
 }
 
 .services__title {
@@ -16,5 +16,11 @@
 .services__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 1.875rem;
+}
+
+@media (max-width: 1700px) {
+    .services__content {
+        grid-template-columns: 1fr;
+    }
 }

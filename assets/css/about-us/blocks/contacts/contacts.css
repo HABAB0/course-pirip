@@ -3,15 +3,15 @@
 .contacts {
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    margin-top: 90px;
-    padding: 0 160px;
+    gap: 3.75rem;
+    margin-top: 5.625rem;
+    padding: 0 10rem;
 }
 
 .contacts__container {
     display: grid;
     grid-template-columns: 0.4fr 1.6fr;
-    gap: 40px;
+    gap: 2.5rem;
     align-items: center;
     justify-items: end;
 }
@@ -19,7 +19,7 @@
 .contacts__detail {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
     color: var(--background);
 }
 
@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 50px;
+    padding: 1.875rem 3.125rem;
     background: var(--secondary-color);
     font-size: var(--size-subtitle);
     border-radius: 24px;
@@ -38,12 +38,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px 50px;
+    padding: 1.875rem 3.125rem;
     background: var(--secondary-color);
     font-size: var(--size-secondary);
     border-radius: 24px;
     text-align: center;
-    min-width: 600px;
+    min-width: 37.5rem;
 }
 
 .contacts__map {
