@@ -15,12 +15,12 @@
 }
 
 :root {
-    --size-title: 5rem;       /* 80px */
-    --size-headline: 4.375rem;  /* 70px */
-    --size-primary: 3.75rem;  /* 60px */
-    --size-subtitle: 3.125rem; /* 50px */
-    --size-secondary: 2.5rem;  /* 40px */
-    --size-description: 1.875rem; /* 30px */
-    --size-help: 1.5625rem;   /* 25px */
+    --size-title: 5.313rem;       /* 85px */
+    --size-headline: 4.688rem;  /* 75px */
+    --size-primary: 4.063rem;  /* 65px */
+    --size-subtitle: 3.438rem; /* 55px */
+    --size-secondary: 2.813rem;  /* 45px */
+    --size-description: 2.188rem; /* 35px */
+    --size-help: 1.875rem;   /* 30px */
 }
 

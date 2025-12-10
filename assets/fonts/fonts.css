@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "LXGW", sans-serif;
-    src: url("LXGWWenKaiMonoTC-Regular.ttf") format("truetype");
+    font-family: "LXGW";
+    src: url("LXGWRegular.ttf") format("truetype");
     font-display: swap;
 }
