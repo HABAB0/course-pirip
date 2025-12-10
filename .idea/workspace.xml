@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5c47a33-7864-438f-bb74-2b4ee1614de3" name="Changes" comment="add: news page">
-      <change afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/about-us/about-us-imports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/about-us/blocks/contacts/contacts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/about-us/blocks/team/team.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/worker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/reviews/blocks/review-form/review-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/reviews/blocks/reviews/rewiews.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/reviews/reviews-imports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/icons/reviews-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/base/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base/variables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/imports.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/imports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/map.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
@@ -64,7 +63,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "base",
-    "last_opened_file_path": "C:/Users/Ay/WebstormProjects/kursach/assets/images",
+    "last_opened_file_path": "C:/Users/Ay/WebstormProjects/kursach/assets/icons",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -78,8 +77,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ay\WebstormProjects\kursach\assets\images" />
       <recent name="C:\Users\Ay\WebstormProjects\kursach\assets\icons" />
+      <recent name="C:\Users\Ay\WebstormProjects\kursach\assets\images" />
       <recent name="C:\Users\Ay\WebstormProjects\kursach\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -128,6 +127,7 @@
       <workItem from="1765172048345" duration="154000" />
       <workItem from="1765172211931" duration="3000" />
       <workItem from="1765289436810" duration="23776000" />
+      <workItem from="1765342987588" duration="2890000" />
     </task>
     <task id="LOCAL-00001" summary="add: main page">
       <option name="closed" value="true" />
