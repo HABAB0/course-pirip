@@ -61,7 +61,7 @@
 }
 
 .goods__description {
-    max-width: 25rem;
+    max-width: 35rem;
     font-size: var(--size-description);
     color: var(--text-color);
 }
