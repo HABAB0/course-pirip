@@ -1,0 +1,60 @@
+@import url("./../../../base/variables.css");
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+    margin-top: 5.625rem;
+}
+
+.reviews__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 4.625rem;
+    justify-content: center;
+}
+
+.reviews__review {
+    display: flex;
+    flex-direction: column;
+    gap: 5.625rem;
+    justify-content: space-between;
+    background: var(--background);
+    box-shadow: 0 5px 15px #B4B4B4;
+    border-radius: 24px;
+    padding: 2.5rem 3.75rem;
+}
+
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+}
+
+.reviews__stars {
+    display: flex;
+    gap: 1rem;
+}
+
+.reviews__text {
+    color: var(--text-color);
+    font-size: var(--size-help);
+    max-width: 25rem;
+}
+
+.reviews__name {
+    font-size: var(--size-subtitle);
+}
+
+@media (max-width: 1500px) {
+    .reviews__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .reviews__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

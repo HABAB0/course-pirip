@@ -1,0 +1,18 @@
+@import url("./../../../base/variables.css");
+
+.event-offer-card {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 1.5rem;
+    margin-top: 5.625rem;
+    height: 100%;
+    width: 100%;
+    min-height: 40.625rem;
+}
+
+@media (max-width: 1150px) {
+    .event-offer-card {
+        grid-template-columns: 1fr;
+        gap: 5.625rem;
+    }
+}

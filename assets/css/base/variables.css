@@ -1,0 +1,26 @@
+/*colors*/
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #1A4BDD;
+    --secondary-color-rgb: 26, 75, 221;
+    --accent-color: #F57C00;
+    --accent-color-rgb: 245, 124, 0;
+    --text-color: #333333;
+    --background: #FFFFFF;
+    --active: #D96E00;
+    --background-black: #000000;
+    --background-black-rgba: 0, 0, 0;
+
+}
+
+:root {
+    --size-title: 5.313rem;
+    --size-headline: 4.688rem;
+    --size-primary: 4.063rem;
+    --size-subtitle: 3.438rem;
+    --size-secondary: 2.813rem;
+    --size-description: 2.188rem;
+    --size-help: 1.875rem;
+}
+

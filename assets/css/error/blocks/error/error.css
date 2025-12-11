@@ -1,0 +1,36 @@
+@import url("./../../../base/variables.css");
+
+.error {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: var(--background);
+    gap: 1.875rem;
+}
+
+.error__image {
+    display: block;
+}
+
+.error__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.875rem;
+    color: var(--background-black);
+    font-size: var(--size-subtitle);
+    max-width: 40%;
+}
+
+.error__title {
+    font-size: 6.25rem;
+}
+
+@media (max-width: 800px) {
+    .error__image {
+        display: none;
+    }
+}
